@@ -1,0 +1,28 @@
+1. Output : 
+Serenity
+
+2. Output : 
+X was 556
+Y was 0
+X was 556 and Y was 0
+
+
+3. Output :
+1
+5
+9
+13
+
+4 arsitektur iOS
+- MVC adalah Model, View, Controller
+  Controller merupakan penghubung antara Model dan View
+  View merupakan bagian yang mempresentasikan tampilan dari aplikasi (GUI) yang berhubungan dengan pengguna
+  Model merupkan data (kelas objek) yang akan di manipulasi
+  View dan Controller menjadi 1 untuk ios
+
+- MVP
+
+- MVVM
+
+- VIPER
+
