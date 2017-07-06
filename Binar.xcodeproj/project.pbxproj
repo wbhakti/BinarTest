@@ -12,6 +12,10 @@
 		DE3C6EA31F0DB5F600F237B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3C6EA11F0DB5F600F237B5 /* Main.storyboard */; };
 		DE3C6EA51F0DB5F600F237B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3C6EA41F0DB5F600F237B5 /* Assets.xcassets */; };
 		DE3C6EA81F0DB5F600F237B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3C6EA61F0DB5F600F237B5 /* LaunchScreen.storyboard */; };
+		DE3C6EB01F0DBE4B00F237B5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C6EAF1F0DBE4B00F237B5 /* DetailViewController.swift */; };
+		DE3C6EB31F0DC3D000F237B5 /* ClsPasien.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C6EB21F0DC3D000F237B5 /* ClsPasien.swift */; };
+		DE3C6EB61F0DC5F500F237B5 /* PasienViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C6EB51F0DC5F500F237B5 /* PasienViewCell.swift */; };
+		DE3C6EB91F0DCC3000F237B5 /* ShareDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C6EB81F0DCC3000F237B5 /* ShareDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DE3C6EA41F0DB5F600F237B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3C6EA71F0DB5F600F237B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3C6EA91F0DB5F600F237B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3C6EAF1F0DBE4B00F237B5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DE3C6EB21F0DC3D000F237B5 /* ClsPasien.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClsPasien.swift; sourceTree = "<group>"; };
+		DE3C6EB51F0DC5F500F237B5 /* PasienViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasienViewCell.swift; sourceTree = "<group>"; };
+		DE3C6EB81F0DCC3000F237B5 /* ShareDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		DE3C6E9C1F0DB5F600F237B5 /* Binar */ = {
 			isa = PBXGroup;
 			children = (
+				DE3C6EB71F0DCC1200F237B5 /* Util */,
+				DE3C6EB41F0DC5AB00F237B5 /* ViewCell */,
+				DE3C6EB11F0DC3BC00F237B5 /* Model */,
 				DE3C6E9D1F0DB5F600F237B5 /* AppDelegate.swift */,
 				DE3C6E9F1F0DB5F600F237B5 /* ViewController.swift */,
+				DE3C6EAF1F0DBE4B00F237B5 /* DetailViewController.swift */,
 				DE3C6EA11F0DB5F600F237B5 /* Main.storyboard */,
 				DE3C6EA41F0DB5F600F237B5 /* Assets.xcassets */,
 				DE3C6EA61F0DB5F600F237B5 /* LaunchScreen.storyboard */,
 				DE3C6EA91F0DB5F600F237B5 /* Info.plist */,
 			);
 			path = Binar;
+			sourceTree = "<group>";
+		};
+		DE3C6EB11F0DC3BC00F237B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C6EB21F0DC3D000F237B5 /* ClsPasien.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE3C6EB41F0DC5AB00F237B5 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C6EB51F0DC5F500F237B5 /* PasienViewCell.swift */,
+			);
+			name = ViewCell;
+			sourceTree = "<group>";
+		};
+		DE3C6EB71F0DCC1200F237B5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DE3C6EB81F0DCC3000F237B5 /* ShareDelegate.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3C6EB31F0DC3D000F237B5 /* ClsPasien.swift in Sources */,
+				DE3C6EB01F0DBE4B00F237B5 /* DetailViewController.swift in Sources */,
 				DE3C6EA01F0DB5F600F237B5 /* ViewController.swift in Sources */,
+				DE3C6EB61F0DC5F500F237B5 /* PasienViewCell.swift in Sources */,
+				DE3C6EB91F0DCC3000F237B5 /* ShareDelegate.swift in Sources */,
 				DE3C6E9E1F0DB5F600F237B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
